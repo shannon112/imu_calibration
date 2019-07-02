@@ -28,3 +28,36 @@ calibration
 <img src="https://github.com/shannon112/imu_calibration/blob/master/result/matlab_plot_v2.png" width="840">
 
 <img src="https://github.com/shannon112/imu_calibration/blob/master/result/processing_plot_v2.png" width="270"> <img src="https://github.com/shannon112/imu_calibration/blob/master/result/ros_gui.png" width="560">
+
+```
+##### Calibration ####
+### accelerometer
+accel_x_min: -255.0
+accel_x_max: 252.32
+accel_y_min: -247.0
+accel_y_max: 259.52
+accel_z_min: -252.69
+accel_z_max: 261.96
+
+### magnetometer
+# standard calibration
+magn_x_min: -600.0
+magn_x_max: 600.0
+magn_y_min: -600.0
+magn_y_max: 600.0
+magn_z_min: -600.0
+magn_z_max: 600.0
+
+# extended calibration
+calibration_magn_use_extended: true
+magn_ellipsoid_center: [370.833, -215.739, -193.379]
+magn_ellipsoid_transform: [[0.860104, 0.0313454, 0.0772148], [0.0313454, 0.970184, -0.0578619], [0.0772148, -0.0578619, 0.885200]]
+
+# AHRS to robot calibration
+imu_yaw_calibration: 0.0
+
+### gyroscope
+gyro_average_offset_x: -0.01
+gyro_average_offset_y: -0.01
+gyro_average_offset_z: -0.02
+```
