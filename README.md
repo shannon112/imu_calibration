@@ -23,3 +23,7 @@ calibration
 5. Setup the Processing IDE environment, enable to run Magnetometer_calibration.pde
 6. Open Processing, run Magnetometer_calibration.pde, now is mag calibration.
 7. update all parameters in .yaml and arduino(re-update firmware)
+
+## Result
+<img src="https://github.com/shannon112/imu_calibration/blob/master/result/matlab_plot_v2.png" width="840">
+<img src="https://github.com/shannon112/imu_calibration/blob/master/result/processing_plot_v2.png" width="280"><img src="https://github.com/shannon112/imu_calibration/blob/master/result/ros_gui.png" width="560">
