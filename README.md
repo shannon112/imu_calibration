@@ -1,4 +1,4 @@
-# imu_calibration of Sparkfun Razor IMU M0
+# imu_calibration of Sparkfun Razor IMU M0 Record
 IMU ros wiki: https://www.evernote.com/l/ATsbvRpS7nZLiKoklp756MNPt2dNEVbX-9I  
 IMU sparkfun tutorial: https://www.evernote.com/l/ATu8VJMjdIVCuI5qk5EX4V7FMfbtIgb-cU8  
 IMU definition: https://www.evernote.com/l/ATvsxBwsDKNBBYuEWXNob-FRUMQBjc3EM0o  
