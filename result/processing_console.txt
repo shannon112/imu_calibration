@@ -1,0 +1,24 @@
+AVAILABLE SERIAL PORTS:
+/dev/ttyACM0 /dev/ttyS0 /dev/ttyS1 /dev/ttyS2 /dev/ttyS3 /dev/ttyS4 /dev/ttyS5 /dev/ttyS6 /dev/ttyS7 /dev/ttyS8 /dev/ttyS9 /dev/ttyS10 /dev/ttyS11 /dev/ttyS12 /dev/ttyS13 /dev/ttyS14 /dev/ttyS15 /dev/ttyS16 /dev/ttyS17 /dev/ttyS18 /dev/ttyS19 /dev/ttyS20 /dev/ttyS21 /dev/ttyS22 /dev/ttyS23 /dev/ttyS24 /dev/ttyS25 /dev/ttyS26 /dev/ttyS27 /dev/ttyS28 /dev/ttyS29 /dev/ttyS30 /dev/ttyS31 /dev/ttyUSB0
+
+HAVE A LOOK AT THE LIST ABOVE AND SET THE RIGHT SERIAL PORT NUMBER IN THE CODE!
+  -> Using port 0: /dev/ttyACM0
+Trying to setup and synch Razor...
+
+MAX NUMBER OF SAMPLES REACHED!
+Trying to write 10000 sample points to file magnetom.float ...
+Done.
+
+
+In the Razor_AHRS.ino, under 'SENSOR CALIBRATION' find the section that reads 'Magnetometer (extended calibration)'
+Replace the existing 3 lines with these:
+
+boolean CALIBRATION__MAGN_USE_EXTENDED = true;
+float magn_ellipsoid_center[3] = {216.978, -115.025, -182.400};
+float magn_ellipsoid_transform[3][3] = {{0.677198, 0.165367, 0.143973}, {0.165367, 0.857774, -0.0679871}, {0.143973, -0.0679871, 0.935208}};
+
+
+X11Util.Display: Shutdown (JVM shutdown: true, open (no close attempt): 2/2, reusable (open, marked uncloseable): 0, pending (open in creation order): 2)
+X11Util: Open X11 Display Connections: 2
+X11Util: Open[0]: NamedX11Display[:0, 0x7fe0d0006aa0, refCount 1, unCloseable false]
+X11Util: Open[1]: NamedX11Display[:0, 0x7fe0d0016710, refCount 1, unCloseable false]
