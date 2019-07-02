@@ -26,4 +26,5 @@ calibration
 
 ## Result
 <img src="https://github.com/shannon112/imu_calibration/blob/master/result/matlab_plot_v2.png" width="840">
-<img src="https://github.com/shannon112/imu_calibration/blob/master/result/processing_plot_v2.png" width="280"><img src="https://github.com/shannon112/imu_calibration/blob/master/result/ros_gui.png" width="560">
+
+<img src="https://github.com/shannon112/imu_calibration/blob/master/result/processing_plot_v2.png" width="270"> <img src="https://github.com/shannon112/imu_calibration/blob/master/result/ros_gui.png" width="560">
