@@ -14,11 +14,11 @@ In the Razor_AHRS.ino, under 'SENSOR CALIBRATION' find the section that reads 'M
 Replace the existing 3 lines with these:
 
 boolean CALIBRATION__MAGN_USE_EXTENDED = true;
-float magn_ellipsoid_center[3] = {216.978, -115.025, -182.400};
-float magn_ellipsoid_transform[3][3] = {{0.677198, 0.165367, 0.143973}, {0.165367, 0.857774, -0.0679871}, {0.143973, -0.0679871, 0.935208}};
+float magn_ellipsoid_center[3] = {370.833, -215.739, -193.379};
+float magn_ellipsoid_transform[3][3] = {{0.860104, 0.0313454, 0.0772148}, {0.0313454, 0.970184, -0.0578619}, {0.0772148, -0.0578619, 0.885200}};
 
 
 X11Util.Display: Shutdown (JVM shutdown: true, open (no close attempt): 2/2, reusable (open, marked uncloseable): 0, pending (open in creation order): 2)
 X11Util: Open X11 Display Connections: 2
-X11Util: Open[0]: NamedX11Display[:0, 0x7fe0d0006aa0, refCount 1, unCloseable false]
-X11Util: Open[1]: NamedX11Display[:0, 0x7fe0d0016710, refCount 1, unCloseable false]
+X11Util: Open[0]: NamedX11Display[:0, 0x7f9fe4006aa0, refCount 1, unCloseable false]
+X11Util: Open[1]: NamedX11Display[:0, 0x7f9fe4016280, refCount 1, unCloseable false]
