@@ -1,0 +1,29 @@
+// Accelerometer
+// "accel x,y,z (min/max) = X_MIN/X_MAX  Y_MIN/Y_MAX  Z_MIN/Z_MAX"
+float ACCEL_X_MIN = -247;
+float ACCEL_X_MAX = 266;
+float ACCEL_Y_MIN = -231;
+float ACCEL_Y_MAX = 287;
+float ACCEL_Z_MIN = -251;
+float ACCEL_Z_MAX = 303;
+
+// Magnetometer (standard calibration mode)
+// "magn x,y,z (min/max) = X_MIN/X_MAX  Y_MIN/Y_MAX  Z_MIN/Z_MAX"
+float MAGN_X_MIN = -600;
+float MAGN_X_MAX = 600;
+float MAGN_Y_MIN = -600;
+float MAGN_Y_MAX = 600;
+float MAGN_Z_MIN = -600;
+float MAGN_Z_MAX = 600;
+
+// Magnetometer (extended calibration mode)
+// Set to true to use extended magnetometer calibration (compensates hard & soft iron errors)
+boolean CALIBRATION__MAGN_USE_EXTENDED = true;
+float magn_ellipsoid_center[3] = {658.940, 269.818, 172.598};
+float magn_ellipsoid_transform[3][3] = {{0.981857, 0.0167962, 0.00834561}, {0.0167962, 0.975821, 0.0133098}, {0.00834561, 0.0133098, 0.944886}};
+
+// Gyroscope
+// "gyro x,y,z (current/average) = .../OFFSET_X  .../OFFSET_Y  .../OFFSET_Z
+float GYRO_AVERAGE_OFFSET_X = -0.05;
+float GYRO_AVERAGE_OFFSET_Y = 0.06;
+float GYRO_AVERAGE_OFFSET_Z = 0.09;
