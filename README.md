@@ -12,7 +12,7 @@ Would be import by magnetometer_calibration/Processing/Magnetometer_calibration/
 
 ## roughly procedure
 usage
-1. Setup the Arduino IDE environment, enable to upload firmware to IMU
+1. Setup the Arduino IDE environment, upload firmware to IMU (check github/ROS wiki, sparkfun website)
 2. open Arduino > file > sketchbook > razor_imu_9dof > src > Razor_AHRS
 3. Run, then open serial, get the RPY result that ROS could use
 calibration
@@ -20,7 +20,7 @@ calibration
 2. enter ```#oc```, now is acc mode for calibration. Start to calibrate imu using gravity. enter ```#oc```to reset.
 3. enter ```#on```, now is mag mode for calibration. This is old method skip.
 4. enter ```#on```, now is gyro mode for calibration. Put imu on the table 10s. enter ```#oc```to reset.
-5. Setup the Processing IDE environment, enable to run Magnetometer_calibration.pde
+5. Setup the Processing IDE environment, run Magnetometer_calibration.pde  (check github/ROS wiki, sparkfun website)
 6. Open Processing, run Magnetometer_calibration.pde, now is mag calibration.
 7. update all parameters in .yaml and arduino(re-update firmware)
 
